@@ -7,9 +7,12 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples{
-
-// }
+fn calculate_price_of_apples(amount: u64) -> u64{
+    if (amount > 40){
+       return amount * 2;
+    }
+    return amount * 3;
+}
 
 // Do not change the tests!
 #[test]

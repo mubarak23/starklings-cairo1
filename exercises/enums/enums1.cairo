@@ -4,7 +4,12 @@
 // I AM NOT DONE
 
 use debug::PrintTrait;
-enum Message { // TODO: define a few types of messages as used below
+enum Message { 
+        Quit,
+        Move,
+        Echo,
+        ChangeColor
+    // TODO: define a few types of messages as used below
 }
 
 fn main() {
